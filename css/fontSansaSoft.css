@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'SansaSoftSemibold';
+	src: url('fonts/SansaSoftStd-SemiBold.eot'); /* IE9 Compat Modes */
+	src: url('fonts/SansaSoftStd-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('fonts/SansaSoftStd-SemiBold.woff') format('woff'), /* Modern Browsers */
+	     url('fonts/SansaSoftStd-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('fonts/SansaSoftStd-SemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

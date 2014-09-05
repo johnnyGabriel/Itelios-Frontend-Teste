@@ -1,0 +1,320 @@
+body
+{
+	background: #F0EDEA;
+	padding: 0;
+	margin: 0;
+}
+
+body input[type="text"], textarea
+{
+	padding: 0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+body .container
+{
+	position: relative;
+	left: 50%;
+	width: 1000px;
+	margin-left: -500px;
+}
+
+body .header
+{
+	color: #E75012;
+}
+
+
+body .header h1
+{
+	width: 295px;
+	height: 43px;
+	text-indent: -999em;
+	background: url('../images/logo.png');
+	margin-bottom: 40px;
+}
+
+body .content
+{
+	display: inline-block;
+	width: 100%;
+}
+
+body .content .data-social
+{
+	float: left;
+	width: 70px;
+	text-align: center;
+	background: #FFF;
+	margin-top: 25px
+}
+
+body .content .data-social .data
+{
+	width: 100%;
+	padding: 5px 0 8px 0;
+	font-family: SansaSoftSemibold;
+	color: #FFF;
+	background: url('../images/data-grad.gif');
+}
+
+body .content .data-social .data ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+body .content .data-social .data #day
+{
+	font-size: 26px;
+}
+
+body .content .data-social .data #month
+{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+body .content .data-social .data #year
+{
+	font-size: 12px;
+}
+
+body .content .data-social .share
+{
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	padding: 8px 0 4px 0;
+}
+
+body .content .post
+{
+	float: left;
+	width: 880px;
+	padding: 13px 23px 0 23px;
+	background: #FFF;
+	border: solid #f2ab40 2px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+body .content .post h2
+{
+	font-family: SansaSoftSemibold;
+	font-size: 26px;
+	color: #E54E12;
+	margin: 13px 0 5px 0;
+}
+
+body .content .post span
+{
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #CAB09F;
+}
+
+body .content .post #poster
+{
+	color: #EC8F00;
+}
+
+body .content .post p
+{
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #78573E;
+}
+
+body .content .buttons
+{
+	text-align: right;
+}
+
+body .content .buttons button
+{
+	height: 42px;
+	font-family: SansaSoftSemibold;
+	font-size: 13px;
+	color: #FFF9F1;
+	border: 0;
+}
+
+body .content .buttons button[name="teste"]
+{
+	width: 127px;
+	background: url('../images/btn_teste.gif');
+}
+
+body .content .buttons button[name="enviar-amigo"]
+{
+	width: 157px;
+	background: url('../images/btn_enviar-amigo.gif');
+}
+
+body .content .buttons button[name="imprimir"]
+{
+	width: 89px;
+	background: url('../images/btn_imprimir.gif');
+}
+
+body .content .comentarios
+{
+	width: 100%;
+	border: solid #ED8F00 2px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+body .content .comentarios .comments-head
+{
+	height: 61px;
+	padding-left: 25px;
+	background: #CF630D;
+	font-size: 18px;
+	color: #FFF;
+}
+
+body .content .comentarios .comments-head h2
+{
+	font-size: 21px;
+	color: #FFF;
+	padding: 18px 0px 10px 0px;
+	margin: 0 0 20px 0;
+}
+
+
+body .content .comentarios .comments
+{
+	overflow-y: scroll;
+	width: 800px;
+	height: 300px;
+	padding: 0 25px 0 25px;
+	margin: 20px 0 20px 0;
+}
+
+body .content .comentarios ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+body .content .comentarios li
+{
+	margin: 0 0 15px 0;
+}
+
+body .content .comentarios ul img
+{
+	float: left;
+	height: 56px;
+	width: 56px;
+	padding: 0 15px 5px 0;
+}
+
+body .content .comentarios ul span
+{
+	color: #CF630d;
+	font-weight: bold;
+}
+
+body .content .comentarios ul p
+{
+	color: #78573e;
+	margin-top: 6px;
+}
+
+body .content .comentarios ul hr
+{
+	border: solid #E7E4DF 1px;
+}
+
+body .content .form-comment
+{
+	margin-top: 45px;
+}
+
+body .content .form-comment .nome
+{
+	float: left;
+	margin: 0 20px 28px 0;
+}
+
+body .content .form-comment label
+{
+	display: block;
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: bold;
+    color: #cf630d;
+    margin-bottom: 5px;
+}
+
+body .content .form-comment input[name="nome"]
+{
+    float: left;
+	width: 300px;
+    height: 35px;
+    border: solid #ED8F00 1px;
+}
+
+body .content .form-comment input[name="email"]
+{
+    float: left;
+	width: 553px;
+    height: 35px;  border: solid #ED8F00 1px;
+}
+
+body .content .form-comment .comment-textarea
+{
+	clear: both;
+}
+
+body .content .form-comment textarea
+{
+	width: 875px;
+    height: 120px;
+    border: solid #ED8F00 1px;
+}
+ 
+body .content .form-comment input[type="submit"]
+{
+	float: right;
+	width: 77px;
+	height: 42px;
+	font-family: SansaSoftSemibold;
+	font-size: 13px;
+	color: #FFF9F1;
+	margin: 15px 0 20px 0;
+	border: 0;
+	background: url('../images/btn_enviar.gif');
+}
+
+body .footer
+{
+	height: 56px;
+	background: #CF630D;
+	margin-top: 50px;
+    padding: 1px 0 5px 10px;
+}
+
+body .footer div
+{
+	position: relative;
+	left: 50%;
+	width: 99px;
+	margin-left: -500px;
+}
+
+body .footer h1
+{
+    width: 99px;
+    height: 18px;
+    text-indent: -999em;
+	background: url('../images/logo-footer.png');
+}
